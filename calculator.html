@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div>
+    <table id="cal">
+        <tr>
+            <td colspan="3"><input type="text"id="result"></td>
+            <td id="clear"><input type="button" id="btn" value="c" onclick="clr()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" id="btn" onclick="dis(1)"></td>
+            <td><input type="button" value="2"id="btn" onclick="dis(2)"></td>
+            <td><input type="button" value="3"id="btn" onclick="dis(3)"></td>
+            <td><input type="button" value="+" id="btn" onclick="dis('+')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" id="btn" onclick="dis(4)"></td>
+            <td><input type="button" value="5" id="btn" onclick="dis(5)"></td>
+            <td><input type="button" value="6" id="btn" onclick="dis(6)"></td>
+            <td><input type="button" value="-" id="btn" onclick="dis('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" id="btn" onclick="dis(7)"></td>
+            <td><input type="button" value="8" id="btn" onclick="dis(8)"></td>
+            <td><input type="button" value="9" id="btn" onclick="dis(9)"></td>
+            <td><input type="button" value="*" id="btn" onclick="dis('*')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" id="btn" onclick="dis(0)"></td>
+            <td><input type="button" value="." id="btn" onclick="dis('.')"></td>
+            <td><input type="button" value="=" id="btn" onclick="cal()"></td>
+            <td><input type="button" value="/" id="btn" onclick="dis('/')"></td>
+        </tr>
+    </table>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

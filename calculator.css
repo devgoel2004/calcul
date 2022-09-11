@@ -1,0 +1,23 @@
+body{
+    margin: 0%;
+}
+div{
+    background-color:rgb(177, 38, 38);
+    width: 265px;
+    padding: 20px 20px 20px 20px;
+
+}
+#result{
+    background-color: aliceblue;
+    border:2px solid blue;
+    width: 200px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#btn{
+    background-color: #0033cc;
+      color: aliceblue;
+      width: 50px;
+      height: 35px;
+      border: 2px solid darkslateblue;
+}
